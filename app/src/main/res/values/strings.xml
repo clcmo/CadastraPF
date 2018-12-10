@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Signapp</string>
+    <string name="mainHome">Signapp: Persons Signup System</string>
+    <string name="idHome">Developed by: Camila L. Oliveira. Version: 1.1</string>
+    <string name="mainButton">Signup</string>
+
+    <string name="tv_su_name">Name:</string>
+    <string name="et_su_name">Enter a Complete Name</string>
+
+    <string name="tv_su_nd">Doc. Number:</string>
+    <string name="et_su_numberdoc">Enter a Number of Document</string>
+
+    <string name="tv_su_age">Age:</string>
+    <string name="et_su_age">Enter a Age:</string>
+
+    <string name="tv_su_phone">Phone:</string>
+    <string name="et_su_phone">Enter a Telephone Number</string>
+
+    <string name="tv_su_mail">Email:</string>
+    <string name="et_su_mail">Enter a Valid Email Address</string>
+
+    <string name="b_su_save">Save</string>
+    <string name="b_su_list">List</string>
+    <string name="b_su_back">Back</string>
+</resources>

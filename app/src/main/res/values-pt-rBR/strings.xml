@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CadastraPF</string>
+
+    <string name="mainHome">Sistema de Cadastro de Pessoas Físicas</string>
+    <string name="idHome">Desenvolvido por: Camila L. Oliveira. Versão 1.1</string>
+    <string name="mainButton">Cadastrar Pessoa Física</string>
+
+    <string name="tv_su_name">Nome:</string>
+    <string name="et_su_name">Insira seu nome completo</string>
+
+    <string name="tv_su_nd">CPF:</string>
+    <string name="et_su_numberdoc">Insira o numero do CPF</string>
+
+    <string name="tv_su_age">Idade:</string>
+    <string name="et_su_age">Insira a idade:</string>
+
+    <string name="tv_su_phone">Telefone:</string>
+    <string name="et_su_phone">Insira um telefone válido</string>
+
+    <string name="tv_su_mail">E-mail:</string>
+    <string name="et_su_mail">Insira um e-mail válido</string>
+
+    <string name="b_su_save">Salvar</string>
+    <string name="b_su_list">Listar</string>
+    <string name="b_su_back">Voltar</string>
+</resources>
