@@ -5,8 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
+    android:layout_margin="@dimen/margin_main"
+    android:baselineAligned="false"
     android:gravity="center"
     android:orientation="vertical"
+    android:padding="@dimen/padding_main"
     tools:context=".MainActivity">
 
     <TextView
@@ -33,6 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
+        android:onClick="onClick"
         android:text="@string/mainButton"
         android:textAlignment="center" />
 </LinearLayout>

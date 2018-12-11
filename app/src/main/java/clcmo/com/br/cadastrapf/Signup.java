@@ -8,36 +8,47 @@ import android.widget.Button;
 
 public class Signup extends AppCompatActivity {
     private Button su_buttonback, su_buttonList, su_buttonSave;
+    private Intent i;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
-        createBackbutton();
-        createSavebutton();
-        createListbutton();
-
+        Backbutton();
+        Savebutton();
+        Listbutton();
     }
 
-    private void createBackbutton() {
+    private void Backbutton() {
         su_buttonback = (Button) findViewById(R.id.su_buttonback);
         su_buttonback.setOnClickListener((View.OnClickListener) this);
     }
 
-    private void createSavebutton() {
+    private void Savebutton() {
         su_buttonSave = (Button) findViewById(R.id.su_buttonSave);
         su_buttonSave.setOnClickListener((View.OnClickListener) this);
     }
 
-    private void createListbutton() {
-        su_buttonList = (Button) findViewById(R.id.gotoSignup);
+    private void Listbutton() {
+        su_buttonList = (Button) findViewById(R.id.su_buttonList);
         su_buttonList.setOnClickListener((View.OnClickListener) this);
     }
 
-    public void onClick (View v){
-        Intent intent = new Intent(Signup.this, List.class);
-        startActivity(intent);
+    public void onClickList (View v){
+        //aqui, ele só clica para a acessar a lista e nada mais
+        i = new Intent(Signup.this, List.class);
+        startActivity(i);
     }
 
+    public void onClickSave (View v){
+        //preciso acrescentar aqui as informações para a List.class
+        i = new Intent(Signup.this, List.class);
+        startActivity(i);
+    }
 
+    public void onClickBack (View v){
+        //aqui, é apenas o retorno a página inicial
+        i = new Intent(Signup.this, MainActivity.class);
+        startActivity(i);
+    }
 }

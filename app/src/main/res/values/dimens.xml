@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <dimen name="margin_main">10dp</dimen>
+    <dimen name="padding_main">5dp</dimen>
     <dimen name="su_size_text">15sp</dimen>
     <item name="su_width" type="dimen">150sp</item>
 </resources>

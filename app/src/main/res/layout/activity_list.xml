@@ -6,17 +6,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    android:layout_margin="10dp"
+    android:layout_margin="@dimen/margin_main"
     android:baselineAligned="false"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="5dp"
+    android:padding="@dimen/padding_main"
     tools:context=".List">
 
     <ListView
         android:id="@+id/lv_dynamic"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
 
     </ListView>
 </LinearLayout>

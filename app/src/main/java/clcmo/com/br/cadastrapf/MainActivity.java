@@ -9,21 +9,22 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity implements OnClickListener {
     private Button gotoSignup;
+    private Intent i;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        createbutton();
+        gotoButton();
     }
 
-    private void createbutton() {
+    private void gotoButton() {
         gotoSignup = (Button) findViewById(R.id.gotoSignup);
         gotoSignup.setOnClickListener((OnClickListener) this);
     }
 
     public void onClick (View v){
-        Intent intent = new Intent(MainActivity.this, Signup.class);
-        startActivity(intent);
+        i = new Intent(MainActivity.this, Signup.class);
+        startActivity(i);
     }
 }
