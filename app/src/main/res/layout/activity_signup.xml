@@ -13,7 +13,6 @@
     android:padding="@dimen/padding_main"
     tools:context=".Signup">
 
-
     <TableLayout
         android:id="@+id/table"
         android:layout_width="match_parent"
@@ -144,34 +143,43 @@
         android:id="@+id/su_table_buttons"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0">
+        android:layout_weight="0"
+        android:gravity="center|fill"
+        android:orientation="horizontal">
 
         <TableRow
+            android:id="@+id/buttonRow"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:orientation="horizontal">
 
             <Button
                 android:id="@+id/su_buttonSave"
+                style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:onClick="onClickSave"
+                android:onClick="SaveButton"
                 android:text="@string/b_su_save" />
 
             <Button
                 android:id="@+id/su_buttonList"
+                style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:onClick="onClickList"
+                android:onClick="ListButton"
                 android:text="@string/b_su_list" />
 
             <Button
                 android:id="@+id/su_buttonback"
+                style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:onClick="onClickBack"
+                android:onClick="BackButton"
                 android:text="@string/b_su_back" />
         </TableRow>
 

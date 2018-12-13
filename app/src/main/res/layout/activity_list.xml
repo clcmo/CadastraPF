@@ -19,5 +19,56 @@
         android:layout_height="match_parent"
         android:scrollbars="vertical">
 
+        <TextView
+            android:id="@+id/lv_id_person"
+            android:layout_width="0dip"
+            android:layout_gravity="fill_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="ID" />
+
+        <TextView
+            android:id="@+id/lv_name_person"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="TITULO" />
+
+        <TextView
+            android:id="@+id/lv_nd_person"
+            android:layout_width="0dip"
+            android:layout_gravity="fill_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="ID" />
+
+        <TextView
+            android:id="@+id/lv_age_person"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="TITULO" />
+
+        <TextView
+            android:id="@+id/lv_phone_person"
+            android:layout_width="0dip"
+            android:layout_gravity="fill_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="ID" />
+
+        <TextView
+            android:id="@+id/lv_mail_person"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="TITULO" />
+
     </ListView>
 </LinearLayout>

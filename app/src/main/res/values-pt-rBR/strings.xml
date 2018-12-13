@@ -10,7 +10,7 @@
     <string name="et_su_name">Insira seu nome completo</string>
 
     <string name="tv_su_nd">CPF:</string>
-    <string name="et_su_numberdoc">Insira o numero do CPF</string>
+    <string name="et_su_numberdoc">Insira o número do CPF</string>
 
     <string name="tv_su_age">Idade:</string>
     <string name="et_su_age">Insira a idade:</string>
