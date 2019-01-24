@@ -1,3 +1,15 @@
+//******************************************************
+
+//Instituto Federal de São Paulo - Campus Sertãozinho
+
+//Disciplina......: M4DADM
+
+//Programação de Computadores e Dispositivos Móveis
+
+//Aluno...........: CAMILA LEITE COURA MARIANO DE OLIVEIRA
+
+//******************************************************
+
 package clcmo.com.br.cadastrapf;
 
 import android.app.Activity;
@@ -27,10 +39,13 @@ public class SQLdb {
         private static final String EMAIL = "email";
         private static final int VERSAO = 1;
 
+        //1- CRIAR BANCO DE DADOS
+
         public CreateDB(Context context) {
             super(context, NOME_BANCO,null, VERSAO);
         }
 
+        //2 - INSERIR DADOS NO REGISTRO
         @Override
         public void onCreate(SQLiteDatabase db) {
             String sql = "CREATE TABLE "+ TABELA + "("
@@ -45,6 +60,8 @@ public class SQLdb {
 
         }
 
+        //2.1 - ATUALIZAR DADOS NO REGISTRO
+
         @Override
         public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
             db.execSQL("DROP TABLE IF EXISTS " + TABELA);
@@ -52,6 +69,7 @@ public class SQLdb {
         }
     }
 
+    //3 - CARREGAR DADOS
     public class ControllerDb {
 
         private SQLiteDatabase db;
@@ -131,6 +149,8 @@ public class SQLdb {
             });
         }
     }
+
+    //3.2 - LISTAR DADOS
 
     public class ListData extends Activity {
         private ListView lista;

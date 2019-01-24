@@ -1,3 +1,15 @@
+//******************************************************
+
+//Instituto Federal de São Paulo - Campus Sertãozinho
+
+//Disciplina......: M4DADM
+
+//Programação de Computadores e Dispositivos Móveis
+
+//Aluno...........: CAMILA LEITE COURA MARIANO DE OLIVEIRA
+
+//******************************************************
+
 package clcmo.com.br.cadastrapf;
 
 import android.content.Intent;
@@ -27,11 +39,16 @@ public class Signup extends AppCompatActivity {
         ListButton(v);
     }
 
+    // VOLTAR A TELA INICIAL
+
     public void BackButton(View v) {
         //aqui, é apenas o retorno a página inicial
         i = new Intent(this, MainActivity.class);
         startActivity(i);
     }
+
+
+    // SALVAR OS DADOS NO REGISTRO E ENCAMINHA-LOS AO BANCO DE DADOS
 
     public void SaveButton(View v){
         //preciso acrescentar aqui as informações para a List.class
@@ -57,6 +74,8 @@ public class Signup extends AppCompatActivity {
 
         startActivity(i);
     }
+
+    // IR PARA A LISTA DE DADOS REGISTRADOS
 
     public void ListButton(View v) {
         //aqui, ele só clica para a acessar a lista e nada mais

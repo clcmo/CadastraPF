@@ -1,3 +1,15 @@
+//******************************************************
+
+//Instituto Federal de São Paulo - Campus Sertãozinho
+
+//Disciplina......: M4DADM
+
+//Programação de Computadores e Dispositivos Móveis
+
+//Aluno...........: CAMILA LEITE COURA MARIANO DE OLIVEIRA
+
+//******************************************************
+
 package clcmo.com.br.cadastrapf;
 
 import android.content.Intent;
@@ -12,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     private View v;
     private Intent i;
 
+    // IR PARA A TELA DE CADASTRO
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
