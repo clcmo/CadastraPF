@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="clcmo.com.br.cadastrapf">
+    package="com.clcmo.cadastrapf">
 
     <application
         android:allowBackup="true"
@@ -13,30 +13,38 @@
         tools:ignore="ExtraText">
 
         <activity
-            android:name=".MainActivity">
+            android:name=".ui.MainActivity"
+            android:exported="true">
             <intent-filter>
-                <action
-                    android:name="android.intent.action.MAIN" />
-                <category
-                    android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
         <activity
-            android:name=".Signup"
-            android:parentActivityName=".MainActivity">
+            android:name=".ui.SignupActivity"
+            android:parentActivityName=".ui.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value=".ui.MainActivity" />
         </activity>
 
         <activity
-            android:name=".List"
-            android:parentActivityName=".Signup">
+            android:name=".ui.LoginActivity"
+            android:parentActivityName=".ui.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".Signup" />
+                android:value=".ui.MainActivity" />
         </activity>
+
+        <activity
+            android:name=".ui.ViewProfileActivity"
+            android:parentActivityName=".ui.LoginActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.LoginActivity" />
+        </activity>
+
     </application>
 
 </manifest>

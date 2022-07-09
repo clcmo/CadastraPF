@@ -8,18 +8,33 @@
     <string name="et_su_name">Enter a Complete Name</string>
 
     <string name="tv_su_nd">Doc. Number:</string>
-    <string name="et_su_numberdoc">Enter a Number of Document</string>
+    <string name="et_su_numberdoc" translatable="false">000000000-00</string>
 
     <string name="tv_su_age">Age:</string>
-    <string name="et_su_age">Enter a Age:</string>
+    <string name="et_su_age" translatable="false">0</string>
 
     <string name="tv_su_phone">Phone:</string>
-    <string name="et_su_phone">Enter a Telephone Number</string>
+    <string name="et_su_phone" translatable="false">(11) 00000-0000</string>
 
     <string name="tv_su_mail">Email:</string>
-    <string name="et_su_mail">Enter a Valid Email Address</string>
+    <string name="et_su_mail">hello@mail.com</string>
 
     <string name="b_su_save">Save</string>
     <string name="b_su_list">List</string>
     <string name="b_su_back">Back</string>
+    <string name="LoginButton">Login</string>
+    <string name="account_login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="view_profile_information">View Profile Information</string>
+    <string name="handy">Handy</string>
+    <string name="opinion">Opinion</string>
+    <string name="handyopinion_gmail_com">handyopinion@gmail.com</string>
 </resources>

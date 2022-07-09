@@ -10,18 +10,20 @@
     <string name="et_su_name">Insira seu nome completo</string>
 
     <string name="tv_su_nd">CPF:</string>
-    <string name="et_su_numberdoc">Insira o número do CPF</string>
 
     <string name="tv_su_age">Idade:</string>
-    <string name="et_su_age">Insira a idade:</string>
 
     <string name="tv_su_phone">Telefone:</string>
-    <string name="et_su_phone">Insira um telefone válido</string>
 
     <string name="tv_su_mail">E-mail:</string>
-    <string name="et_su_mail">Insira um e-mail válido</string>
+    <string name="et_su_mail">ola@mail.com</string>
 
     <string name="b_su_save">Salvar</string>
     <string name="b_su_list">Listar</string>
     <string name="b_su_back">Voltar</string>
+    <string name="LoginButton">Login</string>
+    <string name="account_login">Login</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="create_an_account">Create an Account</string>
 </resources>
