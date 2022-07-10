@@ -9,6 +9,32 @@
         <item name="android:colorForeground">@android:color/background_light</item>
     </style>
 
-    <style name="button_style">@style/Widget.AppCompat.Button.Colored</style>
+    <style name="button_style" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="table_row">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="textView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/su_size_text</item>
+    </style>
+
+    <style name="editTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/su_size_text</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:autofillHints">""</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
 
 </resources>

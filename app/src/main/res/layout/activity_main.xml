@@ -1,7 +1,5 @@
-
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,13 +9,12 @@
     android:gravity="center"
     android:orientation="vertical"
     android:padding="@dimen/padding_main"
-    tools:context=".MainActivity">
+    tools:context=".ui.MainActivity">
 
     <TextView
         android:id="@+id/mainText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/mainHome"
         android:textAlignment="center"
         android:textSize="32sp" />
 
@@ -25,17 +22,14 @@
         android:id="@+id/idText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/idHome"
         android:textAlignment="center"
         android:textSize="16sp" />
 
     <Button
-        android:id="@+id/gotoSignup"
+        android:id="@+id/gotoLogin"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
-        android:onClick="gotoButton"
-        android:text="@string/mainButton"
         android:textAlignment="center" />
 </LinearLayout>
